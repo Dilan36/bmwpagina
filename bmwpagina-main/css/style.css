@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+/*START HEADER*/
+/*START HEADER*/
+/*START HEADER*/
+header{
+   position: relative;
+   width: 100%;
+
+}
+/*sirve para ajustar las columnas o contenido en 2 */
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*  */
+header nav ul{
+    display: flex;
+}
+
+/* Sirve para quitar los puntos de la lista y ajustar la distancia entre cada uno*/
+header nav ul li{
+    margin: 5px 20px;
+    list-style: none;
+}
+/* Sirve para ajustar el tamaño del logo*/
+head nav #Logo a img{
+    width: 200px ;
+
+}
+
+/*Sirve para ajustar el color, tamaño de la fuente el tipo de letra y la animancion del color del cuadro*/
+nav ul li a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+    padding: 8px 12px;
+    transition: .5s;
+    
+}
+/* sirve para ajustar el tamaño de la imagen */
+header #Hero{
+    width: 100%;
+    position: relative;
+}
+
+header #Hero h1{
+    position: absolute;
+    Top: 1%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    Color:white ;
+    text-shadow: 1px 4px 0px red;
+    background:#009dff2a;
+    font-style: unset;
+    font-size: 50px;
+    padding: 20px;
+}
+
+/*Sirve para ajustar el tamaño de la imagen*/
+header #Hero img{
+    width: 100%;
+}
+/* sirve para poner color del borde a los botones*/
+nav ul li a:hover{
+    background: #009dff;
+    border-radius: 15px;
+
+}
+
+/*END HEADER*/
+/*END HEADER*/
+/*END HEADER*/
+
+
+/*STAR MAIN*/
+/*STAR MAIN*/
+/*STAR MAIN*/
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #Welcome{
+    width:100%;
+}
+
+main #Welcome .row{
+    background-color: gainsboro;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #Welcome .row #contText{
+    width: 40%;
+    padding: 20px 0;
+    font-size: larger;
+
+}
+
+main #Welcome .row #contImg{
+    width: 40%;
+    padding: 10px 0;
+}
+
+main #Welcome .row #contImg img{
+    width: 100%;
+    
+}
